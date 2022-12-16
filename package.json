@@ -1,6 +1,6 @@
 {
   "name": "@coinflect/hw-app-coinflect",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Ledger Hardware Wallet Coinflect API",
   "license": "MIT",
   "keywords": [
