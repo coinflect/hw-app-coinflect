@@ -1,0 +1,44 @@
+{
+  "name": "@coinflect/hw-app-coinflect",
+  "version": "0.2.2",
+  "description": "Ledger Hardware Wallet Coinflect API",
+  "license": "MIT",
+  "keywords": [
+    "Ledger",
+    "LedgerWallet",
+    "coinflect",
+    "NanoS",
+    "Blue",
+    "Hardware Wallet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinflect/hw-app-coinflect"
+  },
+  "bugs": {
+    "url": "https://github.com/coinflect/hw-app-coinflect/issues"
+  },
+  "homepage": "https://github.com/coinflect/hw-app-coinflect#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/Coinflect.js",
+  "module": "lib-es/Coinflect.js",
+  "types": "lib/Coinflect.d.ts",
+  "dependencies": {
+    "@ledgerhq/hw-transport": "^6.3.0",
+    "bip32-path": "0.4.2",
+    "create-hash": "1.2.0",
+    "jest": "^26.4.1"
+  },
+  "scripts": {
+    "build": "tsc && tsc -m ES6 --outDir lib-es",
+    "prepare": "tsc && tsc -m ES6 --outDir lib-es"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/jest": "^26.0.24",
+    "@ledgerhq/hw-transport-mocker": "^6.3.0",
+    "typescript": "^4.4.3"
+  }
+}
