@@ -1,7 +1,7 @@
 [Github](https://github.com/LedgerHQ/ledgerjs/),
 [Ledger Devs Slack](https://ledger-dev.slack.com/)
 
-## @obsidiansystems/hw-app-coinflect
+## @coinflect/hw-app-coinflect
 
 [Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Coinflect](https://www.avalabs.org/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
 
@@ -77,7 +77,7 @@ Coinflect API for Ledger
 #### Examples
 
 ```javascript
-import Coinflect from "@obsidiansystems/hw-app-coinflect";
+import Coinflect from "@coinflect/hw-app-coinflect";
 const coinflect = new Coinflect(transport);
 ```
 

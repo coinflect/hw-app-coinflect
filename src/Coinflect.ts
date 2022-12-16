@@ -6,7 +6,7 @@ import createHash from "create-hash";
  * Coinflect API
  *
  * @example
- * import Coinflect from "@obsidiansystems/hw-app-coinflect";
+ * import Coinflect from "@coinflect/hw-app-coinflect";
  * const coinflect = new Coinflect(transport);
  */
 export default class Coinflect {
