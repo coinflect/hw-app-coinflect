@@ -3,7 +3,7 @@
 
 ## @coinflect/hw-app-coinflect
 
-[Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Coinflect](https://www.avalabs.org/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
+[Ledger Hardware Wallet](https://www.ledger.com/) JavaScript Bindings for [Coinflect](https://www.avalabs.org/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
 
 ## Using LedgerJS for Coinflect
 
